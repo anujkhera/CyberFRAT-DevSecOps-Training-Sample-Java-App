@@ -1,11 +1,4 @@
 pipeline {
-  environment {
-    registry = "cyberfrat-java"
-    registryCredential = "DockerHub"
-    dockerImage = ''
-  }
-  
-  
   agent any
   tools {
     maven 'Maven'
